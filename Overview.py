@@ -6,7 +6,7 @@ def chatbots():
     st.title("Challenges of AI Chatbots in Banking in Africa")
     st.write('**_By - Pax, Stella,  Kirezi, Samiratu_**')
     st.header("Final Project: Grand Challenges in AI")
-    abt = Image.open("chatb.PNG")
+    abt = Image.open("assets/chatb.PNG")
     st.image(abt)
     url2 = "https://theconversation.com/embracing-the-bots-how-direct-to-consumer-advertising-is-about-to-change-forever-70592"
     st.markdown('Image fom [Source](%s)' % url2)
@@ -20,6 +20,3 @@ def chatbots():
     st.checkbox('Challenges of AI Banking in Africa')
     st.checkbox('Recommendations')
     st.checkbox('Conclusion')
-    
-
-
