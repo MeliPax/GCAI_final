@@ -4,7 +4,8 @@ from PIL import Image
 
 def chatbots():
     st.title("Challenges of AI Chatbots in Banking in Africa")
-    st.write('**_By - Pax, Stella,  Kirezi, Samiratu_**')
+    st.write(
+        '**_By - Pax E.M, Stella K,  Kirezi A.M, Samiratu N_** - Carnegie Mellon Africa')
     st.header("Final Project: Grand Challenges in AI")
     abt = Image.open("assets/chatb.PNG")
     st.image(abt)
