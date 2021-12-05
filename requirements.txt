@@ -1,4 +1,4 @@
-install streamlit==1.2.0
-install pandas==1.3.4
-install PIL== 2.2.1
-install numpy
+streamlit==1.2.0
+pandas==1.3.4
+PIL== 2.2.1
+numpy
